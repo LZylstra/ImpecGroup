@@ -1,0 +1,47 @@
+.Input,
+.Textarea {
+  border-bottom: 2px solid rgba(86, 89, 163, 0.75);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  padding: 10px 0 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.Input::placeholder,
+.Textarea::placeholder {
+  color: #ccc;
+}
+
+.Input::placeholder {
+  font-size: 12px;
+}
+.Textarea {
+  resize: vertical;
+}
+
+.Button {
+  border: none;
+  background-color: rgb(240, 178, 102);
+  font-size: 1em;
+  padding: 8px 14px;
+}
+
+.Required {
+  color: #ca1551;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.Section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Section--list {
+  margin-left: 10px;
+  margin-right: 10px;
+}

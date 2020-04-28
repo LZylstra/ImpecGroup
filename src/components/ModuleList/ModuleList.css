@@ -1,0 +1,7 @@
+.module-list {
+  /* display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around; */
+  display: inline-flex;
+  flex-wrap: wrap;
+}

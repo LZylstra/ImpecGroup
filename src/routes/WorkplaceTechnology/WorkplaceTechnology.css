@@ -1,0 +1,84 @@
+.hero {
+  margin-top: 80px;
+  max-width: 100%;
+  min-height: 600px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  display: block;
+}
+
+#hero-txt {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+#hero-txt p {
+  width: 280px;
+  margin-bottom: 30px;
+}
+
+#hero-txt h1 {
+  font-size: 60px;
+  width: 280px;
+  padding: 0;
+  margin: 0;
+}
+#top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  height: fit-content;
+}
+.left {
+  width: 400px;
+  margin: auto;
+  margin-top: 4%;
+  padding-right: 15%;
+  padding-left: 80px;
+
+  float: left;
+}
+
+.rightborder {
+  border-right: 2px solid rgba(86, 89, 163, 0.75);
+}
+
+.right {
+  margin-top: 4%;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 5%;
+  margin-bottom: 0px;
+}
+.right p {
+  width: 400px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.large {
+  font-size: 30px;
+  margin: 0;
+}
+
+#wpt-offerings {
+  height: 400px;
+  width: 100%;
+  color: white;
+  padding-bottom: 20px;
+  background-color: rgb(38, 34, 98);
+}
+
+#modules-section {
+  width: 100%;
+}
+
+#modules-section-inner {
+  margin: auto;
+  width: 95%;
+}

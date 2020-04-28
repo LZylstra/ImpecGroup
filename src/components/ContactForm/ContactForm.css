@@ -1,0 +1,11 @@
+.ContactForm {
+  width: 450px;
+  margin: auto;
+  float: left;
+}
+
+#submit-contact {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 15px;
+}
