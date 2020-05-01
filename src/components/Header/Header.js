@@ -11,9 +11,31 @@ function Header() {
         <Link className="menu-option" to="/">
           HOME
         </Link>
-        <Link className="menu-option" to="/">
-          ABOUT US
-        </Link>
+        <div class="dropdown">
+          <Link className="menu-option About-Us" to="/">
+            ABOUT US
+          </Link>
+          <div className="dropdown-content">
+            <Link className="dropdown-option" to="/">
+              What We Do
+            </Link>
+            <Link className="dropdown-option" to="/">
+              Our Vision
+            </Link>
+            <Link className="dropdown-option" to="/">
+              Meet the Team
+            </Link>
+            <Link className="dropdown-option" to="/">
+              Our History
+            </Link>
+            <Link className="dropdown-option" to="/">
+              Strategic Alliances
+            </Link>
+            <Link className="dropdown-option" to="/">
+              Visit Us
+            </Link>
+          </div>
+        </div>
         <Link className="menu-option" to="/">
           SERVICES
         </Link>
