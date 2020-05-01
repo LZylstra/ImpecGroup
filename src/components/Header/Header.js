@@ -11,7 +11,7 @@ function Header() {
         <Link className="menu-option" to="/">
           HOME
         </Link>
-        <div class="dropdown">
+        <div className="dropdown">
           <Link className="menu-option About-Us" to="/">
             ABOUT US
           </Link>
@@ -36,19 +36,19 @@ function Header() {
             </Link>
           </div>
         </div>
-        <Link className="menu-option" to="/">
+        <Link className="menu-option Services" to="/">
           SERVICES
         </Link>
-        <Link className="menu-option" to="/">
+        <Link className="menu-option Case-Studies" to="/">
           CASE STUDIES
         </Link>
-        <Link className="menu-option" to="/">
+        <Link className="menu-option Service-Requests" to="/">
           SERVICE REQUESTS
         </Link>
-        <Link className="menu-option" to="/">
+        <Link className="menu-option Careers" to="/">
           CAREERS
         </Link>
-        <Link className="menu-option" to="/">
+        <Link className="menu-option Contact" to="/">
           CONTACT
         </Link>
       </div>

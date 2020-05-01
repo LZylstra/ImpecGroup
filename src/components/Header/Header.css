@@ -3,21 +3,25 @@
   width: 100%;
   height: 80px;
   background-color: white;
-  text-align: end;
   z-index: 1;
 }
 #menu {
   position: absolute;
-  display: inline-flex;
-  right: 20px;
-  margin-right: 100px;
-  margin-top: 30px;
-  width: 680px;
+  right: 4%;
+  margin-top: 63px;
 }
 .Header a {
+  padding-left: 40px;
   text-decoration: none;
-  color: rgb(114, 115, 118);
-  margin-left: 2%;
+  font-family: DIN2014;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--battleship-grey);
 }
 
 #header-logo {
@@ -25,4 +29,34 @@
   position: absolute;
   top: 15px;
   left: 100px;
+}
+
+.Contact {
+  width: 80px;
+  height: 25px;
+  padding-right: 33.4px;
+}
+.Careers {
+  width: 80px;
+  height: 25px;
+}
+.Service-Requests {
+  width: 171px;
+  height: 25px;
+}
+.Case-Studies {
+  width: 125px;
+  height: 25px;
+}
+.Services {
+  width: 85px;
+  height: 25px;
+}
+.Home {
+  width: 51px;
+  height: 25px;
+}
+.About-Us {
+  width: 89px;
+  height: 25px;
 }
