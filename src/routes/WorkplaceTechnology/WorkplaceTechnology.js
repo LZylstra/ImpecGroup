@@ -1,5 +1,7 @@
 import React from "react";
 import hero from "../../img/HeroImage.png";
+import mask from "../../img/mask-group-1.png";
+import mask2 from "../../img/mask-group-1@2x.png";
 import { Button, Input, Textarea } from "../../utils/utils";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ModuleList from "../../components/ModuleList/ModuleList";
@@ -8,21 +10,23 @@ import "./WorkplaceTechnology.css";
 function WorkplaceTechnology() {
   return (
     <div className="WorkplaceTechnology">
-      <img
+      <div className="heroimg">
+        {/* <img
         src={hero}
         class="hero"
         alt="3D floorplan with Rings of Reality"
-      ></img>
-      <section id="hero-txt">
-        {" "}
-        <h1 id="wpt-title">Workplace Technology</h1>
-        <p>
-          Impec's Workplace Technology team are experts in the robust and mobile
-          tools and software needed to help transform your built environment
-          into the ultimate connected workplace.
-        </p>
-        <Button>CONTACT US</Button>
-      </section>
+      ></img> */}
+        <section id="hero-txt">
+          {" "}
+          <h1 id="wpt-title">Workplace Technology</h1>
+          <p>
+            Impec's Workplace Technology team are experts in the robust and
+            mobile tools and software needed to help transform your built
+            environment into the ultimate connected workplace.
+          </p>
+          <Button>CONTACT US</Button>
+        </section>
+      </div>
       <section id="top">
         <div className="left rightborder">
           <p className="blue bold">

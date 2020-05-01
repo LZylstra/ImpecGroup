@@ -1,24 +1,33 @@
 .hero {
-  margin-top: 80px;
+  /* margin-top: 80px;
   max-width: 100%;
   min-height: 600px;
   height: auto;
   overflow: hidden;
   margin: auto;
-  display: block;
+  display: block; */
 }
 
 #hero-txt {
-  position: absolute;
-  top: 150px;
-  left: 150px;
+  position: relative;
+  top: 178px;
+  left: 144px;
   color: white;
   text-shadow: 2px 2px 4px black;
 }
 
 #hero-txt p {
-  width: 280px;
   margin-bottom: 30px;
+  width: 495px;
+  height: 217px;
+  font-size: 27px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
 
 #hero-txt h1 {
@@ -26,39 +35,74 @@
   width: 280px;
   padding: 0;
   margin: 0;
+  width: 559px;
+  height: 235px;
+  font-size: 93px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
+
 #top {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 94px;
   height: fit-content;
 }
 .left {
-  width: 400px;
+  width: 653px;
+  height: 403px;
   margin: auto;
-  margin-top: 4%;
-  padding-right: 15%;
+  margin-top: 95px;
+  padding-right: 115px;
   padding-left: 80px;
 
   float: left;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--dark-grey);
 }
 
 .rightborder {
-  border-right: 2px solid rgba(86, 89, 163, 0.75);
+  border-right: 2px solid var(--twilight);
 }
 
 .right {
-  margin-top: 4%;
+  margin-top: 95px;
   margin: auto;
-  padding-left: 50px;
+
   padding-right: 5%;
   margin-bottom: 0px;
+}
+
+.right h3 {
+  width: 626px;
+  height: 65px;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--twilight);
 }
 .right p {
   width: 400px;
 }
 .bold {
+  font-size: 28px;
   font-weight: bold;
+  color: var(--twilight);
 }
 
 .large {
@@ -81,4 +125,13 @@
 #modules-section-inner {
   margin: auto;
   width: 95%;
+}
+
+.heroimg {
+  padding-top: 150px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 930px;
+  background-image: url(../../img/HeroImage.png);
 }
