@@ -1,0 +1,5 @@
+.offering-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}

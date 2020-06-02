@@ -1,5 +1,5 @@
 .ContactForm {
-  width: 450px;
+  width: 517px;
   margin: auto;
   float: left;
 }
@@ -7,5 +7,7 @@
 #submit-contact {
   padding-left: 35px;
   padding-right: 35px;
-  margin-top: 15px;
+  margin-top: 39.5px;
+  width: 167px;
+  height: 51px;
 }
