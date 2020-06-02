@@ -1,3 +1,4 @@
+/* Hero image and text row */
 .hero {
   /* margin-top: 80px;
   max-width: 100%;
@@ -47,62 +48,51 @@
   color: #ffffff;
 }
 
+/* General left and right boxes */
+.left {
+  float: left;
+}
+.right {
+  margin-top: 95px;
+  margin-left: 110.9px;
+  margin-bottom: 0px;
+}
+
+/* First row of content */
 #top {
   display: flex;
   justify-content: center;
-  margin-bottom: 94px;
-  height: fit-content;
-}
-.left {
-  width: 653px;
-  height: 403px;
-  margin: auto;
-  margin-top: 95px;
-  padding-right: 115px;
-  padding-left: 80px;
-
-  float: left;
-  font-size: 22px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--dark-grey);
+  height: 592px;
 }
 
 .rightborder {
   border-right: 2px solid var(--twilight);
+  margin-top: 95px;
+  padding-right: 115px;
+  padding-left: 80px;
+  width: 653px;
+  height: 403px;
 }
 
-.right {
+.contact-wpt {
   margin-top: 95px;
-  margin: auto;
+}
 
-  padding-right: 5%;
-  margin-bottom: 0px;
+#carly-contact {
+  width: 579px;
+  height: 78px;
+  color: var(--dark-grey);
 }
 
 .right h3 {
   width: 626px;
   height: 65px;
   font-size: 42px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--twilight);
 }
-.right p {
-  width: 400px;
-}
+
 .bold {
   font-size: 28px;
   font-weight: bold;
-  color: var(--twilight);
 }
 
 .large {
@@ -110,18 +100,54 @@
   margin: 0;
 }
 
+/* What we offer section - second row */
+
 #wpt-offerings {
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  height: 725px;
   width: 100%;
   color: white;
   padding-bottom: 20px;
   background-color: rgb(38, 34, 98);
 }
 
-#modules-section {
-  width: 100%;
+#wpt-offerings h2 {
+  color: white;
+  width: 468px;
+  height: 85px;
+  font-size: 57px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+.offerings-outer-left {
+  margin-top: 123px;
+  margin-right: 119px;
+  margin-left: 144px;
+}
+#offerings-text-left {
+  width: 602px;
+  height: 368px;
+  font-size: 22px;
+}
+.offerings-outer-right {
+  margin: 200px 0px;
 }
 
+#wpt-offerings p {
+  color: white;
+}
+
+/* Modules section */
+#modules-section {
+  width: 100%;
+  height: 859px;
+}
+#modules-section h2 {
+  padding-top: 100px;
+  margin-bottom: 58px;
+  font-size: 57px;
+}
 #modules-section-inner {
   margin: auto;
   width: 95%;
@@ -134,4 +160,139 @@
   background-size: cover; /* Resize the background image to cover the entire container */
   height: 930px;
   background-image: url(../../img/HeroImage.png);
+}
+
+/* Impec Difference section */
+.impec-difference-section {
+  height: 604px;
+  width: 100%;
+  background-color: #f4f7ff;
+}
+
+.impec-difference-section img {
+  width: 952px;
+  height: 604px;
+  object-fit: contain;
+}
+
+.impec-difference-section p {
+  width: 705px;
+  height: 285px;
+  font-size: 22px;
+  color: var(--dark-grey);
+}
+
+.impec-diff-inner-l {
+  padding-left: 114px;
+  margin: auto;
+}
+
+.impec-diff-inner-l h2 {
+  font-size: 52px;
+  padding-top: 120px;
+}
+
+.impec-diff-inner-r {
+  width: 952px;
+  float: right;
+  margin: 0;
+}
+
+/* Why Invest section */
+.why-invest-section {
+  height: 771px;
+  width: 100%;
+}
+
+.why-invest-section h2 {
+  font-size: 57px;
+  width: 767px;
+  height: 159px;
+  margin-left: 144px;
+  margin-top: 108px;
+}
+.why-invest-inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.28;
+}
+
+.why-invest-inner p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#simple {
+  font-weight: bold;
+}
+
+.invest-left {
+  width: 767px;
+  height: 401px;
+  line-height: 1.68;
+  margin-right: 111px;
+}
+
+.invest-right {
+  padding-top: 30px;
+  width: 754px;
+  height: 376px;
+  line-height: 1.68;
+  margin: 0;
+}
+
+/* Numbers section */
+#numbers-section {
+  height: 709px;
+  background-color: #f4f7ff;
+}
+
+#numbers-section h2 {
+  padding-top: 42px;
+  padding-left: 144px;
+  margin-bottom: 80px;
+  font-size: 57px;
+  display: inline-block;
+}
+
+#inner-charts {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#inner-charts img {
+  margin-bottom: 30.8px;
+}
+
+#third-img {
+  padding-top: 50px;
+}
+
+.inner-one,
+.inner-two,
+.inner-three {
+  height: fit-content;
+}
+
+#inner-charts p {
+  width: 354px;
+  height: 140px;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Partners section */
+#partners {
+  width: 100%;
+  height: 459px;
+}
+
+.partners-inner {
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
 }

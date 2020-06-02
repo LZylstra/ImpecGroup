@@ -1,0 +1,12 @@
+.LandingPage {
+  margin-top: 150px;
+  background-color: var(--dark-slate-blue);
+  color: white;
+}
+
+.LandingPage p {
+  color: white;
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}

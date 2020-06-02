@@ -5,10 +5,28 @@
   background-color: white;
   z-index: 1;
 }
+
+#call-us {
+  width: 100%;
+  position: absolute;
+  margin-top: 0;
+  background-color: rgb(238, 238, 238);
+}
+
+#call-us p {
+  color: rgb(227, 69, 57);
+  margin: 0;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  padding-right: 80px;
+}
+
 #menu {
   position: absolute;
   right: 4%;
-  margin-top: 63px;
+  margin-top: 80px;
 }
 .Contact {
   width: 80px;
@@ -56,7 +74,7 @@
 #header-logo {
   width: 100px;
   position: absolute;
-  top: 39px;
+  top: 55px;
   left: 144px;
   width: 160px;
   height: 76px;
