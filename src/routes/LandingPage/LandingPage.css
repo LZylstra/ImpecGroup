@@ -1,12 +1,13 @@
 .LandingPage {
   margin-top: 150px;
   background-color: var(--dark-slate-blue);
-  color: white;
 }
 
 .LandingPage p {
+  padding-left: 1em;
+  padding-right: 1em;
   color: white;
-  width: 650px;
+  max-width: 650px;
   margin: auto;
   text-align: center;
 }
