@@ -7,8 +7,10 @@ export default class Module extends Component {
   render() {
     return (
       <div className="module">
-        <h4 className="blue bold">{this.props.title}</h4>
-        <p>{this.props.description}</p>
+        <div className="inner-module">
+          <h4 className="blue bold">{this.props.title}</h4>
+          <p>{this.props.description}</p>
+        </div>
       </div>
     );
   }
