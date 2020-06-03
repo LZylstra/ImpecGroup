@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../img/Impec-Logo-Color.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
 
 function Header() {
@@ -10,7 +11,8 @@ function Header() {
         <p>CALL US: 408-330-9350</p>
       </span>
       <img src={logo} alt="Impec Group logo" id="header-logo"></img>
-      <div id="menu">
+      <FontAwesomeIcon icon="fa-bars" />
+      <div className="menu">
         <Link className="menu-option Home" to="/">
           HOME
         </Link>
